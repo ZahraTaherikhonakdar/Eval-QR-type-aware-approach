@@ -36,6 +36,14 @@ Execute following files respectively:
 +---preprocess_trec2009
 |   |   preprocess_trec2009.py
 ```
+[qe/cmn/param.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/blob/main/qe/cmn/param.py): to run the ReQue for the Trec2009mq, change the folder address for antique in param.py files to the following address:
+```
+'index': '../ds/trec2009mq/lucene-index-trec2009mq',
+'topics': '../ds/trec2009mq/output/topics_trec',
+'qrels':'../ds/trec2009mq/output/qrels_trec',
+
+```
+
 [stat/stat.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/stat): By running this files matrix consist of expanders and query type and also heat map of the matrix would be built.
 
 ```
