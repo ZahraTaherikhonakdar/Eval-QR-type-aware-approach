@@ -7,9 +7,9 @@ To run this method, clone the [ReQue](https://github.com/fani-lab/ReQue) and exe
 
 *Source Folder:*
 
- [ds/trec2009/source](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/source): This folder Contains [TREC2009 Million Query](https://trec.nist.gov/data/million.query09.html) data set, the relevance judgment and query classes (query types).
+ [ds/trec2009/source](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/source): this folder Contains [TREC2009 Million Query](https://trec.nist.gov/data/million.query09.html) data set, the relevance judgment and query classes (query types).
  
- [ds/trec2009/lucene-index-trec2009mq](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/source):this folder includes clueweb indexes.
+ [ds/trec2009/lucene-index-trec2009mq](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/source): this folder includes clueweb indexes.
  
 ```
 +---ds
@@ -44,7 +44,7 @@ Execute following files respectively:
 
 ```
 
-[stat/stat.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/stat): By running this files matrix consist of expanders and query type and also heat map of the matrix would be built.
+[stat/stat.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/stat): by running this files matrix consist of expanders and query type and also heat map of the matrix would be built.
 
 ```
 +---stat
@@ -53,7 +53,7 @@ Execute following files respectively:
 **Target Folders:**
 The target folders are the outputs for the preprocessed and stat and ReQue expanders.
 
-[ds/trec2009/output](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/output): The results of preprocessing of input queries and the relevance judgment would be in this folder after running [preprocess_trec2009.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-).
+[ds/trec2009/output](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/ds/trec2009mq/output): the results of preprocessing of input queries and the relevance judgment would be in this folder after running [preprocess_trec2009.py](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-).
 
 ```
 +---ds
@@ -63,7 +63,7 @@ The target folders are the outputs for the preprocessed and stat and ReQue expan
 |   |   |   |   qrels_trec
 ```
 
-[qe/output/trec2009mq](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/qe/output/trec2009mq): This folder includes ReQue results in txt files and also the [stat](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/qe/output/trec2009mq/stat) results in png format.
+[qe/output/trec2009mq](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/qe/output/trec2009mq): this folder includes ReQue results in txt files and also the [stat](https://github.com/ZahraTaherikhonakdar/Evaluation-Query-refinement-type-aware-approach-/tree/main/qe/output/trec2009mq/stat) results in png format.
 
 ```
 +---qe
