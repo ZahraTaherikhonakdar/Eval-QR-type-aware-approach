@@ -2,6 +2,7 @@
 # Overview 
 This readme only includes altered or new folders and files in the ReQue. 
 To run this method, clone the [ReQue](https://github.com/fani-lab/ReQue) and execute the ReQue based on its readme document. After installing ReQue follow these steps:
+![type-aware flow](https://github.com/user-attachments/assets/5ec515a8-0a78-482f-b8d9-041ca76dc638)
 
 **Add following folders to the ReQue:**
 
